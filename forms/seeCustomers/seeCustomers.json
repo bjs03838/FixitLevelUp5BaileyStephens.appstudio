@@ -5,7 +5,7 @@
   "background": "", 
   "backgroundimage": "", 
   "borderColor": "", 
-  "borderStyle": "", 
+  "borderStyle": "dashed", 
   "borderWidth": "", 
   "cached_js": null, 
   "cached_js_script_hash": null, 
@@ -14,9 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "seeCustomers", 
         "Elements", 
-        "Button1.json"
+        "drpCustomerSelect.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "lblCustomerSelect.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "hmb1.json"
       ]
     }
   ], 
@@ -26,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form1", 
+  "id": "seeCustomers", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
